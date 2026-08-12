@@ -3,6 +3,7 @@ export * as ServerFetch from "./fetch"
 import { Context, Effect, Layer } from "effect"
 import { HttpEffect, HttpMiddleware, HttpRouter, HttpServer } from "effect/unstable/http"
 import { SessionRestart } from "@opencode-ai/core/session/execution/restart"
+import type { LayerNode } from "@opencode-ai/util/effect/layer-node"
 import { isAllowedCorsOrigin } from "./cors"
 import { createRoutes } from "./routes"
 import type { ServerOptions } from "./options"
@@ -32,9 +33,18 @@ export interface BootOptions {
  * Auth follows `createRoutes` semantics: `options.password` enforces Basic auth; omitting it
  * serves unauthenticated, so an embedder without a password must front the handler with its own
  * access control.
+ *
+ * `overrides` are layer replacements applied after the standard set, so a runtime profile can
+ * swap services the standard graph assumes are local — see `ServerWorkerd.replacements`.
  */
-export const make = Effect.fn("ServerFetch.make")(function* (options: ServerOptions = {}, boot: BootOptions = {}) {
-  const context = yield* Layer.build(createRoutes(options, () => []).pipe(Layer.provide(HttpServer.layerServices)))
+export const make = Effect.fn("ServerFetch.make")(function* (
+  options: ServerOptions = {},
+  overrides: LayerNode.Replacements = [],
+  boot: BootOptions = {},
+) {
+  const context = yield* Layer.build(
+    createRoutes(options, () => [], overrides).pipe(Layer.provide(HttpServer.layerServices)),
+  )
   // Forked so the returned handler is never delayed; resumed drains are already
   // logged and durably recorded by the execution layer.
   if (boot.resumeSuspendedSessions)
