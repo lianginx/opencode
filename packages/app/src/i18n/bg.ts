@@ -381,6 +381,7 @@ export const dict = {
   "prompt.attachment.remove": "Премахване на прикачения файл",
   "prompt.action.send": "Изпратете",
   "prompt.action.stop": "Спрете",
+  "prompt.action.quote": "Цитирай",
   "prompt.toast.pasteUnsupported.title": "Неподдържан прикачен файл",
   "prompt.toast.pasteUnsupported.description": "Тук могат да се прикачват само изображения, PDF или текстови файлове.",
   "prompt.toast.attachmentDuplicate.title": "Този файл вече е качен",

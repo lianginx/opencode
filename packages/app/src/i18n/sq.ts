@@ -378,6 +378,7 @@ export const dict = {
   "prompt.attachment.remove": "Hiq shtojcën",
   "prompt.action.send": "Dërgo",
   "prompt.action.stop": "Ndalo",
+  "prompt.action.quote": "Cito",
   "prompt.toast.pasteUnsupported.title": "Bashkëngjitje e pambështetur",
   "prompt.toast.pasteUnsupported.description":
     "Këtu mund të bashkëngjiten vetëm imazhe, skedarë PDF ose skedarë teksti.",

@@ -377,6 +377,7 @@ export const dict = {
   "prompt.attachment.remove": "Eemalda manus",
   "prompt.action.send": "Saada",
   "prompt.action.stop": "Peatus",
+  "prompt.action.quote": "Tsiteeri",
   "prompt.toast.pasteUnsupported.title": "Toetamata manus",
   "prompt.toast.pasteUnsupported.description": "Siia saab lisada ainult pilte, PDFs või tekstifaile.",
   "prompt.toast.attachmentDuplicate.title": "See fail on juba üles laaditud",

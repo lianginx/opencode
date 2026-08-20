@@ -378,6 +378,7 @@ export const dict = {
   "prompt.attachment.remove": "Buang lampiran",
   "prompt.action.send": "Hantar",
   "prompt.action.stop": "Henti",
+  "prompt.action.quote": "Petik",
   "prompt.toast.pasteUnsupported.title": "Lampiran tidak disokong",
   "prompt.toast.pasteUnsupported.description": "Hanya imej, PDF, atau fail teks boleh dilampirkan di sini.",
   "prompt.toast.attachmentDuplicate.title": "Fail ini telah dimuat naik",

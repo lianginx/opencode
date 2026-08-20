@@ -383,6 +383,7 @@ export const dict = {
   "prompt.attachment.remove": "Pašalinti priedą",
   "prompt.action.send": "Siųsti",
   "prompt.action.stop": "Stabdyti",
+  "prompt.action.quote": "Cituoti",
   "prompt.toast.pasteUnsupported.title": "Nepalaikomas priedas",
   "prompt.toast.pasteUnsupported.description": "Čia galima pridėti tik vaizdus, ​​PDF arba tekstinius failus.",
   "prompt.toast.attachmentDuplicate.title": "Šis failas jau buvo įkeltas",

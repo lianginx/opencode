@@ -285,6 +285,7 @@ export const dict = {
   "prompt.attachment.remove": "Poista liite",
   "prompt.action.send": "Lähetä",
   "prompt.action.stop": "Pysäytä",
+  "prompt.action.quote": "Lainaa",
   "prompt.toast.pasteUnsupported.title": "Liitettä ei tueta",
   "prompt.toast.pasteUnsupported.description": "Vain kuvia, PDF-tiedostoja tai tekstitiedostoja voi liittää tähän.",
   "prompt.toast.attachmentDuplicate.title": "Tämä tiedosto on jo ladattu",

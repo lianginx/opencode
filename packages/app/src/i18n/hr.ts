@@ -382,6 +382,7 @@ export const dict = {
   "prompt.attachment.remove": "Ukloni privitak",
   "prompt.action.send": "Poslati",
   "prompt.action.stop": "Zaustavi",
+  "prompt.action.quote": "Citiraj",
   "prompt.toast.pasteUnsupported.title": "Nepodržani privitak",
   "prompt.toast.pasteUnsupported.description": "Ovdje se mogu priložiti samo slike, PDF-ovi ili tekstualne datoteke.",
   "prompt.toast.attachmentDuplicate.title": "Ova datoteka je već učitana",

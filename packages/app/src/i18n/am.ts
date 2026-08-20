@@ -374,6 +374,7 @@ export const dict = {
   "prompt.attachment.remove": "ዓባሪን አስወግድ",
   "prompt.action.send": "ላክ",
   "prompt.action.stop": "አቁም",
+  "prompt.action.quote": "ጥቅስ",
   "prompt.toast.pasteUnsupported.title": "የማይደገፍ ዓባሪ",
   "prompt.toast.pasteUnsupported.description": "ምስሎች፣ ፒዲኤፎች ወይም የጽሑፍ ፋይሎች ብቻ እዚህ ጋር ሊጣመሩ ይችላሉ።",
   "prompt.toast.attachmentDuplicate.title": "ይህ ፋይል አስቀድሞ ተሰቅሏል",
