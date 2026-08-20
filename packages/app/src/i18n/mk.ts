@@ -379,6 +379,7 @@ export const dict = {
   "prompt.attachment.remove": "Отстранете го прилогот",
   "prompt.action.send": "Испрати",
   "prompt.action.stop": "Стоп",
+  "prompt.action.quote": "Цитирај",
   "prompt.toast.pasteUnsupported.title": "Неподдржан прилог",
   "prompt.toast.pasteUnsupported.description": "Овде може да се прикачат само слики, PDFs или текстуални датотеки.",
   "prompt.toast.attachmentDuplicate.title": "Оваа датотека е веќе поставена",

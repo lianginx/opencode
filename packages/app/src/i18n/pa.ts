@@ -384,6 +384,7 @@ export const dict = {
   "prompt.attachment.remove": "منسلکہ ہٹا دیو",
   "prompt.action.send": "گھلو",
   "prompt.action.stop": "روکو",
+  "prompt.action.quote": "ਹਵਾਲਾ ਦਿਓ",
   "prompt.toast.pasteUnsupported.title": "غیر تعاون یافتہ منسلکہ",
   "prompt.toast.pasteUnsupported.description":
     "ایتھے صرف تصویراں، پی ڈی ایف، یا ٹیکسٹ فائلاں منسلک کیتیاں جا سکدیاں نیں۔",

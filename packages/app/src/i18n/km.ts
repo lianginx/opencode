@@ -377,6 +377,7 @@ export const dict = {
   "prompt.attachment.remove": "លុបឯកសារភ្ជាប់ចេញ",
   "prompt.action.send": "ផ្ញើ",
   "prompt.action.stop": "ឈប់",
+  "prompt.action.quote": "ដកស្រង់",
   "prompt.toast.pasteUnsupported.title": "ឯកសារភ្ជាប់ដែលមិនគាំទ្រ",
   "prompt.toast.pasteUnsupported.description": "មានតែរូបភាព PDF ឬឯកសារអត្ថបទប៉ុណ្ណោះដែលអាចភ្ជាប់មកទីនេះបាន។",
   "prompt.toast.attachmentDuplicate.title": "ឯកសារនេះត្រូវបានផ្ទុកឡើងរួចហើយ",

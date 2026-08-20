@@ -381,6 +381,7 @@ export const dict = {
   "prompt.attachment.remove": "Əlavəni sil",
   "prompt.action.send": "Göndər",
   "prompt.action.stop": "Dayandır",
+  "prompt.action.quote": "Sitat gətir",
   "prompt.toast.pasteUnsupported.title": "Dəstəklənməyən əlavə",
   "prompt.toast.pasteUnsupported.description": "Buraya yalnız şəkillər, PDF-lər və ya mətn faylları əlavə edilə bilər.",
   "prompt.toast.attachmentDuplicate.title": "Bu fayl artıq yüklənib",

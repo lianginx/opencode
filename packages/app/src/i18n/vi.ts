@@ -385,6 +385,7 @@ export const dict = {
   "prompt.attachment.remove": "Xóa tệp đính kèm",
   "prompt.action.send": "Gửi",
   "prompt.action.stop": "Dừng",
+  "prompt.action.quote": "Trích dẫn",
   "prompt.toast.pasteUnsupported.title": "Tệp đính kèm không được hỗ trợ",
   "prompt.toast.pasteUnsupported.description": "Chỉ có thể đính kèm hình ảnh, tệp PDF hoặc tệp văn bản ở đây.",
   "prompt.toast.attachmentDuplicate.title": "Tệp này đã được tải lên",
